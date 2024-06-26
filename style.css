@@ -1,0 +1,340 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+max-width: 1440px;
+padding: 0 100px;
+margin: 0 auto;
+}
+
+/* header style */
+
+header{
+    z-index: 10;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.header-parent{
+align-items: center;
+padding: 10px 0;
+display: flex;
+justify-content: center;
+gap: 330px;
+}
+
+.header-center{
+display: flex;
+gap: 30px;
+}
+
+.header-center a{
+text-decoration: none;
+color: white;
+font-size: 12px;
+font-weight: 600;
+transition: all .5s ease-in-out;
+}
+
+.header-center a:hover{
+color: #F57520;
+}
+
+.header-right{
+display: flex;
+gap: 30px;
+}
+
+/* header style */
+
+/* hero style  */
+
+.hero{
+background-image: url("./1\ \(1\).png");
+background-repeat: no-repeat;
+background-size: cover;
+height: 875px;
+}
+
+.hero-title{
+padding-left: 330px;
+}
+
+.hero-title h1{
+font-size: 96px;
+color: white;
+padding-top: 200px;
+}
+
+.hero-title p{
+font-size: 17px;
+line-height: 28px;
+color: white;
+margin-top: 30px;
+}
+
+.hero-title button{
+padding: 15px 30px;
+color: white;
+background-color: #F57520;
+font-size: 16px;
+margin-top: 30px;
+border-radius: 10px;
+cursor: pointer;
+border: none;
+transition: all 0.3s ease-in-out;
+}
+
+.hero-title button:hover{
+opacity: 0.8;
+}
+
+/* hero style */
+
+/* shop */
+
+.shop{
+background-color: gray;
+}
+
+.box3{
+    margin-right: 23px;
+border-radius: 10px;
+margin-left: 49px;
+
+}
+
+.shop1{
+display: flex;
+gap: 8px;
+padding-bottom: 18px;
+}
+
+
+.box2{
+border-radius: 10px;
+}
+
+.hh2{
+    text-align: center;
+font-size: 64px;
+font-weight: 800;
+padding: 80px 0;
+}
+
+.shop-parent{
+display:  flex;
+justify-content: center;
+padding: 20px 0;
+
+}
+
+.box1{
+border-radius: 10pxS;
+}
+
+
+/* shop */
+
+/* card */
+
+.cardlar{
+display: flex;
+gap: 20px;
+justify-content: center;
+background-color: grey;
+padding-bottom: 100px;
+}
+
+.card-parent{
+display: flex;
+gap: 30px;
+margin-top: 30px;
+}
+
+.card{
+background-color: black;
+border: none;
+border-radius: 10px;
+color: white;
+transition: all .5s ease-in-out;
+}
+
+.card img{
+width: 100%;
+
+border-radius: 10px;
+}
+
+.card:hover{
+background-color: #F57520;
+color: black;
+}
+
+.card p{
+font-size: 18px;
+font-weight: 400;
+padding: 30px 20px;
+}
+
+/* card */
+
+
+
+/* input  */
+
+.input{
+background-color: #F57520;
+height: 636px;
+}
+
+.input-parent{
+display: flex;
+justify-content: center;
+
+}
+
+.input-left h2{
+color: white;
+font-size: 40px;
+margin-left: 150px;
+font-weight: 800;
+padding-top: 50px;
+padding-bottom: 35px;
+}
+
+.input-right img{
+margin-left: 20px;
+}
+
+.inpt1{
+display: flex;
+gap: 20px;
+margin-bottom: 20px;
+margin-left: 150px;
+}
+::placeholder{
+padding: 0 30px;
+}
+
+.inpt1 input{
+background-color: white;
+border: none;
+border-radius: 10px;
+width: 292px;
+height: 46px;
+}
+
+.innn{
+background-color: white;
+border: none;
+border-radius: 10px;
+width: 608px;
+height: 154px;
+margin-left: 150px;
+}
+
+.hh{
+background-color: white;
+color: #F57520;
+border-radius: 10px;
+border: none;
+width: 608px;
+height: 52px;
+margin-left: 150px;
+margin-top: 20px;
+}
+
+.hh:hover{
+opacity: .7;
+}
+
+/* input */
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+background-color: black;
+height: 350px;
+width: 100%;
+}
+
+.footer-left img{
+padding-top: 50px;
+}
+
+.footer-parent{
+display: flex;
+justify-content: center;
+gap: 400px;
+padding-top: 100px;
+}
+
+.footer-center{
+display: flex;
+}
+
+
+.ft1 h3{
+    padding-left: 50px;
+    margin: 30px 0;
+color: white;
+font-size: 24px;
+font-weight: 700;
+}
+
+.ft1 p{
+   padding-left: 50px;
+color: white;
+font-size: 20px;
+}
+
+.ft2 p{
+   padding-left: 50px;
+color: white;
+font-size: 20px;
+}
+ .ft2 h3{
+    padding-left: 50px;
+    margin: 30px 0;
+color: white;
+font-size: 24px;
+font-weight: 700;
+ }
+
+
+ .ft3 p{
+    padding-left: 50px;
+    color: white;
+    font-size: 20px;
+ }
+
+ .ft3 h3{
+    padding-left: 50px;
+    margin: 30px 0;
+color: white;
+font-size: 24px;
+font-weight: 700;
+ }
+
+
+
+
+
+.parent{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+/* footer */
